@@ -8,7 +8,7 @@ resource "aws_vpc" "main" {
 }
 resource "aws_key_pair" "key-pair" {
   key_name = "key-pair"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCDyAr2nCgBW4UvcCspd7vQxj9XxEP4giCPC5ZaMPLs0+kmiXQtJcBoivdtWxAV1C0OO4SwSlnIbbXTOLKTLqXl5CFv0vb3CzvpfpvuJUC1E29lP9VDlsmRWtqLomhlO2VH32c4rQ1xpoLkGiuxB48V3lxk6PFPxOjAU2qOSa6fDilEH/YlIYkjy0Bdk5nqhSq4QiyFWtFjUtHD0Ea/YMXVD5bssJrN+686fV5HOqdOvvi1nMl4zOgpiBRFZhDj6YsxzMw8zjC7AO6XlFcRq9aOzw5fnyUWieRW6C2doqsoyaHDFbWcXOcAkWWQmM8tT7LTurGSfFL16BG9w56tRw1F imported-openssh-key"
+  public_key = "enter ur own"
 }
 resource "aws_internet_gateway" "gw" {
   vpc_id = aws_vpc.main.id
